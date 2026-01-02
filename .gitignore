@@ -1,0 +1,18 @@
+# Maven
+target/
+
+# Allure
+allure-results/
+allure-report/
+
+# IDE
+.idea/
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+
+# OS
+.DS_Store

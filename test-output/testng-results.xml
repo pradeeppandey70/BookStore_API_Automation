@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-30T17:31:12 IST" name="Default suite" finished-at="2025-12-30T17:31:17 IST" duration-ms="4810">
+    <groups>
+    </groups>
+    <test started-at="2025-12-30T17:31:12 IST" name="Default test" finished-at="2025-12-30T17:31:17 IST" duration-ms="4810">
+      <class name="tests.NegativeTests">
+        <test-method is-config="true" signature="beforeSuiteSetup()[pri:0, instance:tests.NegativeTests@6ee660fb]" started-at="2025-12-30T17:31:12 IST" name="beforeSuiteSetup" finished-at="2025-12-30T17:31:12 IST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteSetup -->
+        <test-method is-config="true" signature="beforeClassSetup()[pri:0, instance:tests.NegativeTests@6ee660fb]" started-at="2025-12-30T17:31:12 IST" name="beforeClassSetup" finished-at="2025-12-30T17:31:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassSetup -->
+        <test-method signature="createDuplicateUser_shouldFail()[pri:0, instance:tests.NegativeTests@6ee660fb]" started-at="2025-12-30T17:31:12 IST" name="createDuplicateUser_shouldFail" finished-at="2025-12-30T17:31:17 IST" duration-ms="4692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDuplicateUser_shouldFail -->
+      </class> <!-- tests.NegativeTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -17,7 +17,8 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    docker.build("bookstore-api-tests")
+					echo 'Building Docker image...'
+                    bat 'docker build -t bookstore-api-tests .'
                 }
             }
         }
@@ -25,8 +26,8 @@ pipeline {
         stage('Run API Tests') {
             steps {
                 script {
-                    docker.image("bookstore-api-tests").inside {
-                        sh 'mvn clean test'
+                    echo 'Running API test in Docker...'
+                    bat 'docker run bookstore-api-tests'
                     }
                 }
             }

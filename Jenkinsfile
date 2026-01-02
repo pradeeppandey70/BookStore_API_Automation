@@ -30,7 +30,6 @@ pipeline {
                     bat 'docker run bookstore-api-tests'
                     }
                 }
-            }
         }
 
         stage('Generate Allure Report') {
